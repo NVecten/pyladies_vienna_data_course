@@ -114,7 +114,7 @@ you already know.
 By pressing the `m` key (in blue mode) we can switch the cell from python mode
 code to text mode, which allows us to enrich documents with a lot of different content.
 We know that the cell is in text mode by the fact that it will no longer be blue to the left of it and
-`[]` symbol is gone. While for cells with Python code we get the result after running the program below the cell, the text cell is rendered as text when run.
+`In [ ]:` symbol is gone. While for cells with Python code we get the result after running the program below the cell, the text cell is rendered as text when run.
 
 ### Markdown
 
@@ -172,12 +172,12 @@ in a small bubble near the active cell.
 ### Special commands
 
 Commands beginning with a percentage sign have a special meaning in notebooks. For example
-`% time` can measure and display how long it took to execute the code written on the line immediately following this command.
+`%time` can measure and display how long it took to execute the code written on the line immediately following this command.
 
-Special commands starting with two percent (eg: `%% time`) then have an effect on the whole
+Special commands starting with two percent (eg: `%%time`) then have an effect on the whole
 cell instead of one row.
 
-A list of all special commands can be obtained with `% lsmagic`.
+A list of all special commands can be obtained with `%lsmagic`.
 
 ### Command line commands
 
